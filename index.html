@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <section>       
+        <main id="container">
+            <div class="quadrado" >a</div>
+            <div class="quadrado">a</div>
+            <div class="quadrado" >a</div>
+            
+        </main>
+        <section id="sessao1">
+            <select id ="valores1" onchange="Var1()">
+                <option class="valores" value="">sem valor</option>
+                <option class="valores" value="flex">Display flex</option>
+                <option class="valores" value="block">Display Block</option>
+                <option class="valores" value="content">Display content</option>
+        
+            </select>
+            <select  name="justify" id ="valores2" onchange="Var1()">
+                <option  value="">Sem valor</option>
+                <option  value="center">justify-center</option>
+                <option  value="space-between">justify-space-between</option>
+                <option  value="space-around">justify-space-around</option>
+                <option  value="space-evenly">justify-space-evenly</option>
+                <option  value="flex-end">justify-flex-end</option>
+                <option  value="flex-start">justify-flex-start</option>
+                
+            </select>
+            <select name="" id = "valores3" onchange="Var1()">
+                <option  value="">Sem valor</option>
+                <option  value="center">align-items:center</option>
+                <option  value="stretch">align-items:stretch</option>
+                <option  value="baseline">align-items:baseline</option>
+                <option  value="flex-start">align-items-flex-start</option>
+                <option  value="flex-end">align-items-flex-end</option>
+               
+            </select>
+        </section>
+    </section>
+</body>
+</html>
